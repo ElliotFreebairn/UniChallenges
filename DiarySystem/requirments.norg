@@ -1,0 +1,11 @@
+
+* What types of things need to be recorded in diary system
+  - Event abstract class - date, description, display method to display information
+  - Appointment - location
+  - Meeting - attended (list of people), meeting link 
+  - Task - due date, priority
+  - Meeting, Appointments etc.. extend Event
+  -- Appointment, meting, task are all subclasses of Event
+  -- Diary class will be the interface for the system
+
+
